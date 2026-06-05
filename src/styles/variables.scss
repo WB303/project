@@ -1,0 +1,35 @@
+:root {
+  --bg-primary: #0a1628;
+  --bg-secondary: #0f2140;
+  --bg-card: rgba(15, 33, 64, 0.85);
+  --bg-card-hover: rgba(20, 45, 85, 0.95);
+  --text-primary: #e8f0fe;
+  --text-secondary: #94a3b8;
+  --accent: #3b82f6;
+  --accent-light: #60a5fa;
+  --accent-glow: rgba(59, 130, 246, 0.35);
+  --border: rgba(59, 130, 246, 0.2);
+  --gradient-start: #0a1628;
+  --gradient-end: #1e3a5f;
+  --header-bg: rgba(10, 22, 40, 0.92);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+  --progress-bg: rgba(59, 130, 246, 0.15);
+}
+
+[data-theme='light'] {
+  --bg-primary: #f0f4fa;
+  --bg-secondary: #e2e8f0;
+  --bg-card: rgba(255, 255, 255, 0.95);
+  --bg-card-hover: #ffffff;
+  --text-primary: #0f172a;
+  --text-secondary: #64748b;
+  --accent: #2563eb;
+  --accent-light: #3b82f6;
+  --accent-glow: rgba(37, 99, 235, 0.2);
+  --border: rgba(37, 99, 235, 0.15);
+  --gradient-start: #dbeafe;
+  --gradient-end: #eff6ff;
+  --header-bg: rgba(255, 255, 255, 0.92);
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  --progress-bg: rgba(37, 99, 235, 0.1);
+}
