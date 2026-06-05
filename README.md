@@ -1,5 +1,25 @@
-# Vue 3 + TypeScript + Vite
+# 王斌个人简历官网
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+基于 Vue3 + Vite + TypeScript + Element Plus 构建的个人简历展示网站。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 本地运行
+
+```bash
+npm install
+npm run dev
+```
+
+## 打包部署
+
+```bash
+npm run build
+```
+
+将 `dist/` 目录部署到 Vercel、Gitee Pages 或阿里云 OSS 即可。
+
+## 页面结构
+
+- `/` 首页 - 个人信息与求职意向
+- `/edu` 教育背景与荣誉奖项
+- `/project` 实习经历与 Agent 项目
+- `/skill` 技能清单与自我评价
