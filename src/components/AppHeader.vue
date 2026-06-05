@@ -44,7 +44,7 @@ const menuOpen = ref(false)
 const navItems = [
   { path: '/', label: '首页' },
   { path: '/edu', label: '教育荣誉' },
-  { path: '/project', label: '实习项目' },
+  { path: '/projects', label: '实习项目' },
   { path: '/skill', label: '技能评价' },
 ]
 

@@ -17,7 +17,7 @@
         <el-tag type="info" effect="dark" round>LangChain / RAG</el-tag>
       </div>
       <div class="actions">
-        <el-button type="primary" size="large" @click="$router.push('/project')">
+        <el-button type="primary" size="large" @click="$router.push('/projects')">
           查看项目经历
         </el-button>
         <el-button size="large" @click="$router.push('/skill')">技能与评价</el-button>
